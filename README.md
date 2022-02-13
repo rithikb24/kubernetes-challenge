@@ -25,3 +25,7 @@ You can expose Minikube's Docker daemon with:
 ```shell
 $ eval (minkube docker-env)
 ```
+
+Answer - 
+Deployment, Service And Ingress file are in K8s folder. 
+To use the ingress host, run 'minikube ip' and add the ip and hostname to /etc/hosts.
